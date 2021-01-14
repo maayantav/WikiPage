@@ -1,21 +1,25 @@
 
-.titlePage {
-  font-size: 50px;
-  color: aqua;
+.titlespanage {
+  font-size: 50spanx;
+  color: rgb(172, 101, 9);
   text-align: center;
 }
 
 .imgTytle {
-  width: 70px;
+  width: 70spanx;
 }
 
-.imgPage {
+.imgspanage {
   width: 20%;
-  display: block;
+  disspanlay: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .tytleB {
   font-weight: bold;
+}
+
+body {
+  background-color: rgb(158, 238, 238);
 }
