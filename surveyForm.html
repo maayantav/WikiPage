@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav id="navbar">
+              <ul>
+                <li><a href="MainPage.html">Home Page</a></li>
+                <li><a href="winnerScore.html">Winnes</a></li>
+                <li><a href="israelyWinners.html">Israeli Medals</a></li>
+              </ul>
+            </nav>
+          </header>
+        <h1 class="titlespanage"> Survey Form</h1>
+        <p>Thank you for help us improve our website</p>
+        <form>
+            <div>
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+            </div>
+            <div >
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required="">
+            </div>
+            <div>
+                <label id="number-label" for="number">Age</label>
+                <input type="number" name="age" id="number" min="0" max="99" class="form-control" placeholder="Age">
+            </div>
+            <div>
+                <p>What do you want add to our website?</p>
+                <select id="dropdown" name="role" class="form-control" required="">
+                    <option disabled="" selected="" value="">Select current role</option>
+                    <option value="gymnast">an infomation about more gymnast</option>
+                    <option value="elements">the new elements of each gymnast</option>
+                    <option value="score">the bast score in that Championship</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Would you recommend that website to a friend?</p>
+                <label>
+                    <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Definitely</input>
+                </label>
+                <label>
+                    <input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe</input>
+                </label>
+                    <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not sure</label>
+            </div>
+            <div>
+                <p>Any comments or suggestions?</p>
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <button type="submit" id="submit" class="submit-button">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
