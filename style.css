@@ -1,12 +1,22 @@
-
+#medalTable {
+  display: inline-block;
+}
 .titlespanage {
   font-size: 50spanx;
-  color: rgb(172, 101, 9);
+  color: rgb(255, 255, 255);
   text-align: center;
+  margin-top: 30px;
 }
 
 .imgTytle {
-  width: 70spanx;
+  height: 70px;
+}
+
+.shadow {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background-color: white;
+  position: relative;
+  bottom: 20px;
 }
 
 .imgspanage {
@@ -14,6 +24,7 @@
   disspanlay: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 .tytleB {
@@ -21,5 +32,31 @@
 }
 
 body {
-  background-color: rgb(158, 238, 238);
+  background: linear-gradient(
+    90deg,
+    aqua,
+    rgb(243, 100, 224),
+    rgb(220, 132, 247)
+  );
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: wheat;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+footer {
+  text-align: left;
 }
